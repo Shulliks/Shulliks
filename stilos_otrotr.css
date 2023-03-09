@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+  }
+
+.header {
+    padding: 50px;
+    text-align: center;
+    background: aquamarine;
+    color: rgb(97, 66, 138);
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(122, 44, 122);
+}
+
+.nav a {
+    color: lightpink;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    text-decoration-style: solid;
+    width: 23%;
+}
+.nav > .nav2 {
+    width: 40%;
+    text-align: right;
+    padding: 15px 20px;
+    text-decoration-style: solid;
+}
+
+
+a :-webkit-any-link {
+    cursor: pointer;
+}
+
+.nav a:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+/** para el contenido */
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detalles {
+    flex: 70%;
+    color: rgb(48, 4, 90);
+    background-color: lightpink;
+    padding: 50px;
+}
+
+
+.side {
+    flex: 30%;
+    color: brown;
+    background-color: lightsalmon;
+    padding: 20px;
+    text-align: center;
+}
+
+.rounded-circle {
+    border-radius:  50%!important;
+    border-top-left-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+}
+.flex-shrink-0 {
+    flex-shrink: 0!important;
+}
+
+
+/** para el foot */
+
+.footer {
+    padding: 23px;
+    background: lightblue;
+    text-align: center;
+}
+
+.footer>span {
+    padding-right: 30px;
+    text-align: right;
+}
+
+.footer>a {
+    padding-left: 30px;
+    text-align: right;
+}
+
+/** para el responsive */
+@media screen and (max-width: 700px) {
+    .info, .nav {   
+      flex-direction: column;
+    }
+  }

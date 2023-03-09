@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+  }
+
+.tituloform {
+    color: rgb(60, 60, 250);
+    text-align: center;
+    margin: 15px;
+    padding-top: 10px;
+}
+
+.Enviar {
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 12px 18px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    background-color: lightseagreen;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+
+  .Enviar:hover {
+    background-color:aquamarine;
+    color: grey;
+  }
+
+.comentarios {
+    border-radius: 50px;
+    background-color: rgb(134, 107, 255);
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+}
+
+.formulario {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+    color: rgb(65, 9, 117);
+    text-decoration-style: dotted;
+}
+
+label {
+    padding-bottom: 50px;
+}
+
