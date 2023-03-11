@@ -1,5 +1,6 @@
 ### Hi there 👋
-This repository was created to be presented as a proyect to a Learning Center, with the purpose of demonstrate the acquired knowledges given on their two months course. ... Unfortunately, the time is a goal, so with a half hour late it has been lost all.
+This repository was created to be presented as a project to a Learning Center, with the purpose of demonstrate the acquired knowledges given on their two months course -with no one to clarify any doubts, it must be said-; although I had the misfortune to have to make it for the very first time in four days ((wretched crime)). 
+... Unfortunately, the time is a goal, so with a half hour late it has been lost all. No explanations allowed.
 
 
 <!--
