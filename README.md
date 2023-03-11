@@ -1,4 +1,6 @@
 ### Hi there 👋
+This repository was created to be presented as a proyect to a Learning Center with the purpose of demonstrate, after two months, the acquired knowledges given on their course. ... Unfortunately, the time is a goal, so with a half hour late it has been lost all.
+
 
 <!--
 **Shulliks/Shulliks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
